@@ -10,9 +10,28 @@ Unlike [korfix-devkit](https://github.com/korfixdev/devkit) (miniapp development
 
 ## Install
 
+The plugin is distributed via the [Korfix Marketplace](https://github.com/korfixdev/marketplace).
+
+**New Claude Code (interactive `/plugin` UI):**
+
+1. Type `/plugin` in Claude Code
+2. **Add marketplace** → paste `github:korfixdev/marketplace`
+3. Find `korfix-assistant` in list → **Install**
+
+**Older Claude Code (commands):**
+
 ```
-/plugin add github:korfixdev/assistant
+/plugin marketplace add github:korfixdev/marketplace
+/plugin install korfix-assistant@korfixdev
 ```
+
+**Manual install** (fallback):
+
+```bash
+git clone https://github.com/korfixdev/assistant ~/.claude/plugins/korfix-assistant
+```
+
+> For other AI clients (Codex, Cursor, Claude Desktop) — just connect the MCP server directly: `https://mcp.korfix.ru/${KORFIX_TOKEN}/sse` via your client's MCP config. The plugin format here is Claude Code-specific, but the MCP behind it works everywhere.
 
 ## Setup
 
@@ -95,9 +114,28 @@ info@korfix.ru
 
 ## Установка
 
+Плагин распространяется через [маркетплейс Korfix](https://github.com/korfixdev/marketplace).
+
+**Новый Claude Code (интерактивный `/plugin` UI):**
+
+1. Набери `/plugin` в Claude Code
+2. **Add marketplace** → вставь `github:korfixdev/marketplace`
+3. Найди `korfix-assistant` в списке → **Install**
+
+**Старый Claude Code (командой):**
+
 ```
-/plugin add github:korfixdev/assistant
+/plugin marketplace add github:korfixdev/marketplace
+/plugin install korfix-assistant@korfixdev
 ```
+
+**Ручная установка** (fallback):
+
+```bash
+git clone https://github.com/korfixdev/assistant ~/.claude/plugins/korfix-assistant
+```
+
+> Для других AI-клиентов (Codex, Cursor, Claude Desktop) — подключай MCP-сервер напрямую: `https://mcp.korfix.ru/${KORFIX_TOKEN}/sse` через MCP-конфиг своего клиента. Plugin-формат тут специфичен для Claude Code, а MCP за ним работает везде.
 
 ## Настройка
 
