@@ -31,6 +31,16 @@ The plugin is distributed via the [Korfix Marketplace](https://github.com/korfix
 git clone https://github.com/korfixdev/assistant ~/.claude/plugins/korfix-assistant
 ```
 
+### After install — activate in current session
+
+The plugin won't be active in your current Claude session immediately. Run:
+
+```
+/reload-plugins
+```
+
+Or restart Claude Code — plugins load on next start.
+
 > For other AI clients (Codex, Cursor, Claude Desktop) — just connect the MCP server directly: `https://mcp.korfix.ru/${KORFIX_TOKEN}/sse` via your client's MCP config. The plugin format here is Claude Code-specific, but the MCP behind it works everywhere.
 
 ## Setup
@@ -134,6 +144,16 @@ info@korfix.ru
 ```bash
 git clone https://github.com/korfixdev/assistant ~/.claude/plugins/korfix-assistant
 ```
+
+### После установки — активация в текущей сессии
+
+Плагин не станет активен в текущей сессии сразу. Выполни:
+
+```
+/reload-plugins
+```
+
+Либо перезапусти Claude Code — плагины подтянутся при следующем старте.
 
 > Для других AI-клиентов (Codex, Cursor, Claude Desktop) — подключай MCP-сервер напрямую: `https://mcp.korfix.ru/${KORFIX_TOKEN}/sse` через MCP-конфиг своего клиента. Plugin-формат тут специфичен для Claude Code, а MCP за ним работает везде.
 
