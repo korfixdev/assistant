@@ -1,6 +1,6 @@
 {
   "name": "korfix-assistant",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "AI assistant plugin for querying Korfix ERP data: business questions, reports, searches, record creation via MCP.",
   "author": {
     "name": "Korfix",
