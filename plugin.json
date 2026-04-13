@@ -1,0 +1,30 @@
+{
+  "name": "korfix-assistant",
+  "version": "0.1.0",
+  "description": "AI assistant plugin for querying Korfix ERP data: business questions, reports, searches, record creation via MCP.",
+  "author": {
+    "name": "Korfix",
+    "email": "info@korfix.ru",
+    "url": "https://korfix.ru"
+  },
+  "homepage": "https://github.com/korfixdev/assistant",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/korfixdev/assistant"
+  },
+  "license": "MIT",
+  "keywords": [
+    "korfix",
+    "erp",
+    "ai-assistant",
+    "mcp",
+    "business-intelligence",
+    "claude-code"
+  ],
+  "mcpServers": {
+    "korfix": {
+      "type": "sse",
+      "url": "${KORFIX_MCP_URL}"
+    }
+  }
+}
