@@ -15,13 +15,13 @@ The plugin is distributed via the [Korfix Marketplace](https://github.com/korfix
 **New Claude Code (interactive `/plugin` UI):**
 
 1. Type `/plugin` in Claude Code
-2. **Add marketplace** → paste `github:korfixdev/marketplace`
+2. **Add marketplace** → paste `korfixdev/marketplace`
 3. Find `korfix-assistant` in list → **Install**
 
 **Older Claude Code (commands):**
 
 ```
-/plugin marketplace add github:korfixdev/marketplace
+/plugin marketplace add korfixdev/marketplace
 /plugin install korfix-assistant@korfixdev
 ```
 
@@ -119,13 +119,13 @@ info@korfix.ru
 **Новый Claude Code (интерактивный `/plugin` UI):**
 
 1. Набери `/plugin` в Claude Code
-2. **Add marketplace** → вставь `github:korfixdev/marketplace`
+2. **Add marketplace** → вставь `korfixdev/marketplace`
 3. Найди `korfix-assistant` в списке → **Install**
 
 **Старый Claude Code (командой):**
 
 ```
-/plugin marketplace add github:korfixdev/marketplace
+/plugin marketplace add korfixdev/marketplace
 /plugin install korfix-assistant@korfixdev
 ```
 
