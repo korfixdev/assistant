@@ -1,8 +1,10 @@
 # korfix-assistant
 
-**AI assistant plugin for Claude Code — query Korfix ERP data via MCP.**
+**AI assistant plugin for Claude Code — query [Korfix](https://korfix.ru) ERP data via MCP.**
 
 For business users: build summaries, search records, create tasks and entries through natural-language requests. MCP-based, no coding required.
+
+**Platform:** [korfix.ru](https://korfix.ru) · **Docs:** [docs.korfix.info](https://docs.korfix.info) · **Related plugin:** [korfixdev/devkit](https://github.com/korfixdev/devkit)
 
 Unlike [korfix-devkit](https://github.com/korfixdev/devkit) (miniapp development), this plugin is for **platform usage** — managers, analysts, automations.
 
