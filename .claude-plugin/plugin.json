@@ -8,10 +8,7 @@
     "url": "https://korfix.ru"
   },
   "homepage": "https://github.com/korfixdev/assistant",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/korfixdev/assistant"
-  },
+  "repository": "https://github.com/korfixdev/assistant",
   "license": "MIT",
   "keywords": [
     "korfix",
